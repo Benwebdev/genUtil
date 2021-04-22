@@ -13,6 +13,23 @@ import { throttle } from "./throttle";
 import { unescape } from "./unescape";
 import { urlParams } from "./urlParams";
 
+var genUtil = {
+	all, 
+	currentUrl, 
+	debounce, 
+	deparamitize,
+	escape,
+	escapeMap,
+	extend,
+	get,
+	loadScript,
+	paramitize,
+	pick,
+	throttle,
+	unescape,
+	urlParams
+}
+
 export {
 	all, 
 	currentUrl, 
@@ -30,4 +47,4 @@ export {
 	urlParams
 }
 
-
+export default genUtil;
